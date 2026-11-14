@@ -23,10 +23,6 @@ docker exec -it ansible-control ansible all -m ping
 docker exec -it ansible-control ansible-playbook playbook.yml
 ```
 
-## Captura de la ejecucion exitosa
-
-![Ejecucion exitosa del playbook](captura.png)
-
 ## Limpiar
 
 ```bash
